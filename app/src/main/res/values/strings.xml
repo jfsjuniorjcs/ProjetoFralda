@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Projeto Fralda</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_detalhe_fralda">DetalheFraldaActivity</string>
+    <string name="aba_web">Web</string>
+    <string name="aba_favoritos">Favoritos</string>
+</resources>

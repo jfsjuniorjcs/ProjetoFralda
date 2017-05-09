@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jeniffer.projetofralda.DetalheFragment"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="144dp"
+        android:id="@+id/image_fralda"/>
+    <TextView
+        android:id="@+id/text_marca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/text_modelo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/text_tamanho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/text_quantidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+
+
+
+    <!--<Button
+        android:id="@+id/meuBotao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"/>
+--> </LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_favorito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fabSize="normal"
+        android:layout_gravity="right|bottom"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"/>
+</FrameLayout>
